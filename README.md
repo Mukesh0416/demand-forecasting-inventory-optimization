@@ -39,17 +39,28 @@ inventory.
 
 ## Dataset
 
-M5 Forecasting dataset containing historical retail sales,
-calendar information, and product pricing data.
+This project uses the **M5 Forecasting dataset**, a retail sales
+forecasting dataset containing historical product-level sales,
+calendar information, store information, and selling prices.
 
-## Architecture
+### Source
 
-Coming soon.
+[Kaggle — M5 Forecasting Accuracy](https://www.kaggle.com/competitions/m5-forecasting-accuracy/data)
 
-## Results
+### Required Files
 
-Coming soon.
+The project uses the following files:
 
-## Dashboard
+- `calendar.csv`
+- `sales_train_validation.csv`
+- `sell_prices.csv`
 
-Coming soon.
+### Data Storage
+
+The raw dataset is **not stored in this GitHub repository** because of
+its size.
+
+After downloading the dataset, place the files inside:
+
+```text
+data/raw/
