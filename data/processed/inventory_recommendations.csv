@@ -1,0 +1,5 @@
+scope,segment,total_demand,stockout_rate,average_inventory,inventory_turnover,recommendation
+recommended_scenario,"SL=0.99, LT=3d",,0.0033,2827.0,23.75,Best validation trade-off: weighted fill rate 0.988 at 2827 avg units; adopt as default policy
+abc_class,A,51752.0,0.006,1848.7,27.99,"High demand contribution: tight monitoring, high service-level target, frequent replenishment review"
+abc_class,B,9539.0,0.0017,532.6,17.91,"Medium contribution: standard monitoring, 95% service target, weekly replenishment review"
+abc_class,C,5829.0,0.0022,445.3,13.09,"Low contribution / intermittent: avoid excessive safety stock, consider lower service-level target, review demand behaviour"

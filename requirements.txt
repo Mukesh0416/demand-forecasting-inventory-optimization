@@ -1,10 +1,11 @@
-pandas
+﻿pandas
 numpy
 scikit-learn
 matplotlib
 seaborn
 jupyter
-openpyxl
-sqlalchemy
 xgboost
-statsmodels
+streamlit
+plotly
+pytest
+pyarrow
